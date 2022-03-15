@@ -1,0 +1,525 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 10px 20px;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 4em;
+    z-index: 1;
+}
+
+nav ol {
+    position: relative;
+    left: 25%;
+}
+nav ol li {
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    font-family: arial;
+}
+
+nav ol li a:hover {
+    color:blueviolet;
+}
+
+header {
+    background-image: url(../images/b-img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 45em;
+    box-shadow: inset 0px 13px 145px 95px #f1f1f1;
+}
+
+.hello {
+    padding-top: 200px;
+}
+
+.hello h1 {
+    color: black;
+    background-color: white;
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    width: 480px;
+    height: 70px;
+    margin: auto;
+    padding-top: 25px;
+    margin-bottom: 30px;
+}
+
+.logo2 {
+    width: 100px;
+    margin: auto;  
+    margin-bottom: 30px;
+    display: block;
+}
+
+.hello h2 {
+    color: #ffffff;
+    background-color: #673ab7;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    width: 480px;
+    height: 70px;
+    margin: auto;
+    padding-top: 25px
+}
+
+.aboutalice {
+    background: linear-gradient(0deg, white, #673ab7);
+    height: 40em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutalice h1 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 60px;
+    margin-top: 0;
+}
+
+.aboutalice ol {
+    display: inline-block;
+    vertical-align: top;
+    margin: 25px;
+    line-height: 50px;
+}
+
+.aboutalice li {
+    list-style-type: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.friend::before {
+    content: "\263C";
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.mood::before {
+    content: "\263A";
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.work::before {
+    content: "\270E";
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.problems::before {
+    content: "\2714";
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+.morning::before {
+    content: "\25F4";
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+.music::before {
+    content: "\266B";
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+.weather::before {
+    content: "\2601";
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.way::before {
+    content: "\27A4";
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.find::before {
+    content: "?";
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.aboutalice li::after {
+    content: "\02C3";
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.aboutalice h2 {
+    background-color:#a28ace;;
+    font-size: 1.5em;
+    text-align: center;
+    border: 1px solid white;
+    box-shadow: 0 0px 32px 0px white;
+    border-radius: 100px;
+    width: 400px;
+    height: 50px;
+    margin: auto;
+    padding-top: 20px;
+    margin-top: 40px;
+}
+
+.aboutalice h2 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: lighter;
+}
+.aboutalice h2 a:hover {
+    color: black;
+
+}
+
+.stations {
+    background: white;
+    width: 85%;
+    height: 77em;
+    border: 1px solid transparent;
+    box-shadow: 0 0px 20px 0px rgb(233 221 248);
+    margin: auto;
+    padding: 40px;
+}
+
+.stations h2 {
+    font-family: arial;
+    font-size: 1.5em;
+    font-weight: lighter;
+    color: black;
+    margin-top: 1.5em;
+    text-align: center;
+}
+.yandexmax {
+    margin: 0 auto;
+    font-family: arial;
+    font-size: 1.3em;
+    text-align: justify;
+    color: #827c82;
+}
+.max {
+    width: 400px;
+    float: left;
+}
+
+.mini {
+    float: right;
+    width: 350px;
+}
+
+.yandexmini {
+    margin: auto;
+    margin-top: 8em;
+    font-family: arial;
+    font-size: 1.3em;
+    text-align: justify;
+    color: #827c82;
+}
+
+.light {
+    width: 350px;
+    float: left;
+}
+
+.yandexlight {
+    margin: auto;
+    margin-top: 5em;
+    font-family: arial;
+    font-size: 1.3em;
+    text-align: justify;
+    color: #827c82;
+}
+
+
+
+.buy {
+    background: linear-gradient(0deg, #673ab7, white);
+    text-align: center;
+    font-family: arial;
+}
+
+.buy h1 {
+    font-weight: lighter;
+    font-size: 2.5em;
+    color: #673ab7;
+    margin-top: 2em;
+    margin-bottom: 1.5em;
+}
+
+.buy h2 {
+    font-weight: lighter;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.block {
+    display: inline-block;
+    width: 300px;
+    background-color: #ffffff;
+    color: #2b2b2b;
+    font-weight: lighter;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 25px;
+    border: 2px solid transparent;
+    margin: 0px 30px 35px 30px;
+    box-shadow: 0 0px 28px 0px #7c65a0;
+}
+
+.block ol {
+    margin-right: 10px;
+}
+
+.pricebox {
+    background-color: #673ab7;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.btnbuy {
+    background-color: #673ab7;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    padding: 3px;
+    margin-bottom: 15px;
+}
+
+.btnbuy:hover {
+    background-color: rgb(172, 172, 172);
+    color: black;
+}
+
+.reviews {
+    background-color: #673ab7;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
+    font-family: arial;
+}
+
+.reviews h1 {
+    font-weight: lighter;
+    font-size: 2.5em;
+    color: #ffffff;
+    margin: 10px;
+}
+
+.reviewbox {
+    display: inline-block;
+    width: 37%;
+    text-align: left;
+    font-style: italic;
+    font-size: 0.9em;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(63, 63, 63);
+    margin: 20px;
+    margin: 20px 20px 10px 90px;
+    padding-right: 20px;
+}
+
+.reviewbox::before {
+    content: "";
+    background-image: url(../images/ava-max.jpg);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    float: left;
+    display: block;
+    position: relative;
+    right: 40px;
+    top: 20px;
+    margin: 0px 0px 18px -50px;  
+    z-index: 0;
+
+}
+
+.reviewbox::after {
+    content: '';
+    position: absolute;
+    left: -24px;
+    top: 40px;
+    border: 13px solid transparent;
+    border-right: 12px solid rgb(255, 255, 255);
+}
+
+.user {
+    color: rgb(173, 173, 173);
+    font-style: normal;
+}
+
+
+footer {
+    background-color: #673ab7;
+    font-family: arial;
+    padding-top: 2em;
+}
+
+footer h1 {
+    font-weight: lighter;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0;
+}
+
+.center {
+    padding: 0px 0px 20px 346px;
+    display: flex;
+}
+.contactbox {
+    /* display: inline-block; */
+    margin-right: 50px;
+}
+
+.contactbox1 {
+    height: 2em;
+    background-color: white;
+    border-radius: 10px;
+    color: #818181;
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.contactbox2 {
+    height: 2em;
+    background-color: white;
+    border-radius: 10px;
+    color: #445062;
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.contactbox3 {
+    height: 10em;
+    background-color: white;
+    border-radius: 10px;
+    color: #445062;
+    width: 500px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.btnsend {
+    background-color: white;
+    color: #673ab7;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.socialbox {
+    /* display: inline-block; */
+    color: white;
+    line-height: 30px;
+}
+
+.skype {
+    list-style-image: url(../images/skype-6-30.png);
+}
+
+.email {
+    list-style-image: url(../images/at-2-30.png);
+}
+
+.phone {
+    list-style-image: url(../images/phone-2-30.png);
+}
+
+
+.socialline {
+    display: flex;
+    padding-left: 50px;
+}
+
+.socialline li {
+    margin-right: 50px;
+}
+.twitter {
+    list-style-image: url(../images/twitter-4-40.png);
+}
+.facebook {
+    list-style-image: url(../images/facebook-4-40.png);
+}
+.google {
+    list-style-image: url(../images/google-plus-4-40.png);
+}
+.youtube {
+    list-style-image: url(../images/youtube-4-40.png);
+}
